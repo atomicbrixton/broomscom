@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{10E4470D-D968-4775-8986-7193877943F8}</ProjectGuid>
+    <ProjectGuid>{76B748F8-8ECE-4592-B980-253BAFA4CA01}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>AtomicCatalog</RootNamespace>
-    <AssemblyName>AtomicCatalog</AssemblyName>
+    <RootNamespace>DirectiveHub</RootNamespace>
+    <AssemblyName>DirectiveHub</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
