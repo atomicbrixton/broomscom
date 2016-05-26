@@ -5,10 +5,6 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicCatalog", "AtomicCatalog\AtomicCatalog.csproj", "{10E4470D-D968-4775-8986-7193877943F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicCatalog.WebApi", "AtomicCatalog.WebApi\AtomicCatalog.WebApi.csproj", "{B32A767A-1BA0-4BC0-A7D5-CECC8722C414}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtomicCatalog.WebApi.Tests", "AtomicCatalog.WebApi.Tests\AtomicCatalog.WebApi.Tests.csproj", "{AF9D30F1-7BAD-4511-ABDA-389AE9C99354}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,14 +15,6 @@ Global
 		{10E4470D-D968-4775-8986-7193877943F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E4470D-D968-4775-8986-7193877943F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E4470D-D968-4775-8986-7193877943F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B32A767A-1BA0-4BC0-A7D5-CECC8722C414}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B32A767A-1BA0-4BC0-A7D5-CECC8722C414}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B32A767A-1BA0-4BC0-A7D5-CECC8722C414}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B32A767A-1BA0-4BC0-A7D5-CECC8722C414}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF9D30F1-7BAD-4511-ABDA-389AE9C99354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF9D30F1-7BAD-4511-ABDA-389AE9C99354}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF9D30F1-7BAD-4511-ABDA-389AE9C99354}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF9D30F1-7BAD-4511-ABDA-389AE9C99354}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
