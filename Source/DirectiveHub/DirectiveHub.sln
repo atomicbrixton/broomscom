@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectiveHub.WebApi", "Dire
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectiveHub.WebApi.Test", "DirectiveHub.WebApi.Test\DirectiveHub.WebApi.Test.csproj", "{58771C69-E305-429D-8990-8670BA43F289}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectiveHub.WebApi.Adaptor", "DirectiveHub.WebApi.Adaptor\DirectiveHub.WebApi.Adaptor.csproj", "{1A216C5C-0447-43B6-A614-8750BBB545F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectiveHub.Data", "DirectiveHub.Data\DirectiveHub.Data.csproj", "{84591F74-D7A3-4622-A06A-D5E9A788AA53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{58771C69-E305-429D-8990-8670BA43F289}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58771C69-E305-429D-8990-8670BA43F289}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58771C69-E305-429D-8990-8670BA43F289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A216C5C-0447-43B6-A614-8750BBB545F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A216C5C-0447-43B6-A614-8750BBB545F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A216C5C-0447-43B6-A614-8750BBB545F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A216C5C-0447-43B6-A614-8750BBB545F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84591F74-D7A3-4622-A06A-D5E9A788AA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84591F74-D7A3-4622-A06A-D5E9A788AA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84591F74-D7A3-4622-A06A-D5E9A788AA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84591F74-D7A3-4622-A06A-D5E9A788AA53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

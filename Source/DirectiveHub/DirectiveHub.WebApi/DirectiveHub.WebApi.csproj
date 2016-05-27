@@ -137,6 +137,16 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DirectiveHub.Data\DirectiveHub.Data.csproj">
+      <Project>{84591f74-d7a3-4622-a06a-d5e9a788aa53}</Project>
+      <Name>DirectiveHub.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DirectiveHub.WebApi.Adaptor\DirectiveHub.WebApi.Adaptor.csproj">
+      <Project>{1a216c5c-0447-43b6-a614-8750bbb545f3}</Project>
+      <Name>DirectiveHub.WebApi.Adaptor</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
